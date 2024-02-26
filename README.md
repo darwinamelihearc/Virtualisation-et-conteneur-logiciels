@@ -6,7 +6,7 @@ Progression actuelle :
 - 🟢 C00 Getting Started with Python
 - 🟢 C01 Python Flask Guestbook
 - 🟢 C02a Modules sqlite3 Guestbook	
-- 🟠 C02b Env PostgreSQL Guestbook	
+- 🟠 C02b Env PostgreSQL Guestbook [En attente de la clarification gcloud]
 - 🟢 C03a Getting Started with Virtual Machine on Desktop	
 - 🟠 C03b Getting Started with SSH
 - 🔴 C04a Nginx Compute Engine Guestbook
