@@ -75,5 +75,52 @@ debian@debian:~$ exit
 
 ```console
 darwin@LAPTOP-MMLBEP53:~$ ssh -L 5432:127.0.0.1:5432 debian@172.28.64.1
+debian@debian:~$
+```
 
+On change de PC, j'utilise PS pour pas confondre du coup.
+
+# SSH Keys with GitHub
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+
+# SSH Keys with Switch Engine
+
+On login sur https://engines.switch.ch/horizon/quickstart/#/
+
+Change la région en LS
+
+# Google Compute Engine
+
+
+```console
+darwin@DarwinPC:~/undergit/Virtualisation-et-conteneur-logiciels$ ssh -D 7777 darwin@34.171.72.158
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-1062-gcp x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Mon Jun 17 18:14:50 UTC 2024
+
+  System load:  0.0               Processes:             107
+  Usage of /:   19.9% of 9.51GB   Users logged in:       0
+  Memory usage: 22%               IPv4 address for ens4: 10.128.0.2
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '22.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Mon Jun 17 18:14:01 2024 from 84.75.116.29
+darwin@instance-20240617-180520:~$
 ```

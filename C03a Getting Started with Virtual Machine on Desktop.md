@@ -44,7 +44,7 @@ debian@debian:~$ sudo apt-get install python3 python3-pip python3-venv git -y
 debian@debian:~$ git clone https://github.com/bfritscher/guestbook-src.git
 ...
 
-debian@debian:~$ python3 -v venv venv
+debian@debian:~$ python3 -m venv venv
 debian@debian:~$ cd guestboook-src/02_mvp_modules_sqlite3/
 debian@debian:~$ source ~/venv/bin/activate
 (venv) debian@debian:~/guestboook-src/02_mvp_modules_sqlite3$ pip install -r requirements.txt
